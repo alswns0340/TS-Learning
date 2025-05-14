@@ -11,6 +11,10 @@ import {
   isUserSignedIn2,
 } from './basic/functionEx'
 import objectSample from './basic/objectSample'
+import arraySample from './basic/array'
+import tupleSample from './basic/tuple'
+import genericsSample from './basic/generic'
+import advancedSample from './basic/advance'
 // primitiveSample()
 // notExist()
 // any()
@@ -42,4 +46,9 @@ import objectSample from './basic/objectSample'
 // alwaysThrowError('Hello TypeScript!')
 
 // objectSample()
-typeAliasSample()
+// typeAliasSample()
+// arraySample()
+// tupleSample()
+
+genericsSample()
+advancedSample()
