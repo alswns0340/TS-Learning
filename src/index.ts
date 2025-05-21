@@ -15,6 +15,8 @@ import arraySample from './basic/array'
 import tupleSample from './basic/tuple'
 import genericsSample from './basic/generic'
 import advancedSample from './basic/advance'
+import { genericPoly } from './basic/generic_poly'
+import { genericPlayer } from './basic/genericPlayer'
 // primitiveSample()
 // notExist()
 // any()
@@ -50,5 +52,8 @@ import advancedSample from './basic/advance'
 // arraySample()
 // tupleSample()
 
-genericsSample()
-advancedSample()
+// genericsSample()
+// advancedSample()
+
+genericPoly()
+genericPlayer()
