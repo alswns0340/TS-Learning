@@ -17,6 +17,11 @@ import genericsSample from './basic/generic'
 import advancedSample from './basic/advance'
 import { genericPoly } from './basic/generic_poly'
 import { genericPlayer } from './basic/genericPlayer'
+import OOP from './basic/OOP'
+import interfaceFunc from './basic/interface'
+import LocalStorage from './basic/LocalStorage/localstorage'
+import { Player2 } from './basic/LocalStorage/player2'
+
 // primitiveSample()
 // notExist()
 // any()
@@ -55,5 +60,27 @@ import { genericPlayer } from './basic/genericPlayer'
 // genericsSample()
 // advancedSample()
 
-genericPoly()
-genericPlayer()
+// genericPoly()
+// genericPlayer()
+
+// OOP()
+
+// interfaceFunc()
+
+const P1= new Player2('kang','minjun')
+const P2= new Player2('킴','종율센세')
+
+const ls = new LocalStorage<string>()
+const pls = new LocalStorage<Player2>()
+
+ls.set('1','이제 뭐해야해...?')
+ls.set('2','난 모르긴 해')
+ls.get('1')
+ls.get('2')
+ls.update('2','진짜 모름')
+ls.get('2')
+
+pls.set('강',P1)
+pls.set('김',P2)
+pls.get('강')
+pls.get('김')
